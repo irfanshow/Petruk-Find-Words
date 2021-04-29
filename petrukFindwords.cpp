@@ -31,25 +31,25 @@ bool searchHorizontal(char *word){
     for (int i = 0 ;i<rows;i++){
         store = *(words+i);
         if(strstr(store,word)){
-            return true;
+            found = true;
            }
         else {
-            found = false ;
+            found = false;
         }
     }
     return found;
 }
 
 
+
 int main()
 {
     char word[16];
     int n;
-    cin >> n;
-    cin.ignore(n);
+    cin>>n;
     for (int i=0;i<n;i++){
         cin.getline(word,16,'\n');
-        if (searchHorizontal(word) )
+        if (searchVertical(word) || searchHorizontal(word))
             cout << "Ada\n";
         else
             cout << "Tidak Ada\n";
