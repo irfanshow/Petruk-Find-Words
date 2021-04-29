@@ -31,10 +31,10 @@ bool searchHorizontal(char *word){
     for (int i = 0 ;i<rows;i++){
         store = *(words+i);
         if(strstr(store,word)){
-            found = true;
+            return true;
            }
         else {
-            found = false;
+            found = false ;
         }
     }
     return found;
