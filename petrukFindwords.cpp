@@ -41,15 +41,15 @@ bool searchHorizontal(char *word){
 }
 
 
+
 int main()
 {
     char word[16];
     int n;
-    cin >> n;
-    cin.ignore(n);
+    cin>>n;
     for (int i=0;i<n;i++){
         cin.getline(word,16,'\n');
-        if (searchHorizontal(word) )
+        if (searchVertical(word) || searchHorizontal(word))
             cout << "Ada\n";
         else
             cout << "Tidak Ada\n";
