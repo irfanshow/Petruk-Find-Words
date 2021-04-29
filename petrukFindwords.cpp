@@ -21,7 +21,9 @@ const int cols = 16, rows = 15;
                                 "ohnkzwaterjgtra"};
 
 
-char *getWordHorizontal(int );
+char *getWordVertical(int);
+char *reverse(char *);
+bool searchVertical(char *);
 
 bool searchHorizontal(char *word){
     bool found;
