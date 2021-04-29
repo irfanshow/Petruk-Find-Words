@@ -20,10 +20,26 @@ const int cols = 16, rows = 15;
                                 "pdcrzmsngrdnrpz",
                                 "ohnkzwaterjgtra"};
 
+
 char *getWordVertical(int);
 char *reverse(char *);
 bool searchVertical(char *);
-bool searchHorizontal(char *);
+
+bool searchHorizontal(char *word){
+    bool found;
+    char *store ;
+    for (int i = 0 ;i<rows;i++){
+        store = *(words+i);
+        if(strstr(store,word)){
+            found = true;
+           }
+        else {
+            found = false;
+        }
+    }
+    return found;
+}
+
 
 
 int main()
