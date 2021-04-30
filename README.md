@@ -1,1 +1,0 @@
-# Petruk-Find-Words
