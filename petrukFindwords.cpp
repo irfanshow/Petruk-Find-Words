@@ -22,8 +22,14 @@ const int cols = 16, rows = 15;
 
 
 char *getWordVertical(int);
-char *reverse(char *);
 bool searchVertical(char *);
+
+char *reverse(char *words){
+    strrev(words);
+    return strrev(words);
+
+}
+
 
 bool searchHorizontal(char *word){
     bool found;
