@@ -22,8 +22,13 @@ const int cols = 16, rows = 15;
 
 
 char *getWordVertical(int);
-char *reverse(char *);
 bool searchVertical(char *);
+
+char *reverse(char *horizontalWords){
+    strrev(horizontalWords);
+    return strrev(horizontalWords);
+}
+
 
 bool searchHorizontal(char *word){
     bool found;
@@ -46,10 +51,10 @@ int main()
     char word[16];
     int n;
     cin >> n;
-    cin.ignore(n);
+    cin.ignore(n,'\n');
     for (int i=0;i<n;i++){
         cin.getline(word,16,'\n');
-        if (searchHorizontal(word) )
+        if (searchHorizontal(word)|| reverse(word))
             cout << "Ada\n";
         else
             cout << "Tidak Ada\n";
