@@ -21,8 +21,36 @@ const int cols = 16, rows = 15;
                                 "ohnkzwaterjgtra"};
 
 
-char *getWordVertical(int);
-bool searchVertical(char *);
+char *getWordVertical(int x){
+    char word [16];
+    for (int i = 0;i<rows;i++){
+
+        word[i]=words [i][x];
+
+
+    }
+    return word;
+
+
+}
+bool searchVertical(char *vertical){
+    bool found;
+    char *store ;
+    for (int i = 0 ;i<rows;i++){
+        store = *(words+i);
+        if(strstr(store,vertical)){
+            return true;
+           }
+        else {
+            found = false ;
+        }
+    }
+    return found;
+}
+
+
+
+
 
 char *reverse(char *horizontalWords){
     strrev(horizontalWords);
@@ -30,12 +58,12 @@ char *reverse(char *horizontalWords){
 }
 
 
-bool searchHorizontal(char *word){
+bool searchHorizontal(char *horizontal){
     bool found;
     char *store ;
     for (int i = 0 ;i<rows;i++){
         store = *(words+i);
-        if(strstr(store,word)){
+        if(strstr(store,horizontal)){
             return true;
            }
         else {
