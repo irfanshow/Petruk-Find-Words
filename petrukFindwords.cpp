@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@irfanshow
-irfanshow
-/
-Petruk-Find-Words
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Petruk-Find-Words/petruk-FindWord.cpp
-@irfanshow
-irfanshow get word vertical revisi
-…
-Latest commit 02de6ac 5 minutes ago
- History
- 1 contributor
-87 lines (73 sloc)  1.93 KB
-
 #include <iostream>
 #include <cstring>
 
@@ -51,14 +19,12 @@ const int cols = 16, rows = 15;
                                 "mosgzczetdbooto",
                                 "pdcrzmsngrdnrpz",
                                 "ohnkzwaterjgtra"};
-
 char *reverse(char *a){
 	static char show[16];
     for (int i=0;i<15;i++){
     show[i]=a[14-i];
  }
 	return show;
-
 }
 char *getWordVertical(int a){
 	static char VertHere [16];
@@ -75,9 +41,13 @@ bool searchVertical(char *vertical){
          store = (getWordVertical(i));
          if(strstr(store,vertical)||strstr(reverse (store),vertical)){
              return true;
-
-}
-
+           }
+         else {
+             found = false ;
+         }
+     }
+     return found;
+ }
 
  bool searchHorizontal(char *horizontal){
      bool found;
@@ -107,3 +77,4 @@ char word[16];
      }
      return 0;
 
+}
