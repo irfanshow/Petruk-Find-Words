@@ -19,14 +19,12 @@ const int cols = 16, rows = 15;
                                 "mosgzczetdbooto",
                                 "pdcrzmsngrdnrpz",
                                 "ohnkzwaterjgtra"};
-
 char *reverse(char *a){
 	static char show[16];
     for (int i=0;i<15;i++){
     show[i]=a[14-i];
  }
 	return show;
-
 }
 char *getWordVertical(int a){
 	static char VertHere [16];
@@ -43,9 +41,13 @@ bool searchVertical(char *vertical){
          store = (getWordVertical(i));
          if(strstr(store,vertical)||strstr(reverse (store),vertical)){
              return true;
-
-}
-
+           }
+         else {
+             found = false ;
+         }
+     }
+     return found;
+ }
 
  bool searchHorizontal(char *horizontal){
      bool found;
@@ -75,3 +77,4 @@ char word[16];
      }
      return 0;
 
+}
