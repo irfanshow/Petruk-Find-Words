@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T10:59:36.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="l8P4KIaw7sux7tDgQaMu" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T11:02:13.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="XrmG_bkWcS4QhOpZrU23" version="14.6.13" type="github">
   <diagram id="UVGQqestL4LisQcyUeWL" name="Page-1">
     <mxGraphModel dx="1038" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200" pageHeight="300" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="23" y="755.4" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-41" value="Bayar" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="FoPdU7yQy80ElH368FdN-35">
-          <mxGeometry x="98" y="910.4" width="80" height="40" as="geometry" />
+          <mxGeometry x="65.5" y="910.4" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FoPdU7yQy80ElH368FdN-35" source="FoPdU7yQy80ElH368FdN-40" target="FoPdU7yQy80ElH368FdN-41">
           <mxGeometry relative="1" as="geometry">
@@ -40,7 +40,7 @@
           <mxGeometry x="40" y="360" width="195.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-44" value="Sistem Gojek" style="swimlane;whiteSpace=wrap;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="444.5" y="-110" width="280" height="1380" as="geometry" />
+          <mxGeometry x="444.5" y="-120" width="280" height="1380" as="geometry" />
         </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-45" value="Menampilkan Tempat makan/Restaurant" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="FoPdU7yQy80ElH368FdN-44">
           <mxGeometry x="10.5" y="132" width="260" height="70" as="geometry" />
@@ -49,7 +49,7 @@
           <mxGeometry x="38.5" y="430" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-49" value="Mencari driver yang tersedia dan terdekat dengan restaurant" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="FoPdU7yQy80ElH368FdN-44">
-          <mxGeometry x="20" y="730" width="230" height="70" as="geometry" />
+          <mxGeometry x="40.5" y="860" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-51" value="Menampilkan Info Driver" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="FoPdU7yQy80ElH368FdN-44">
           <mxGeometry x="58" y="1015.4" width="170" height="40" as="geometry" />
@@ -85,11 +85,6 @@
         <mxCell id="FoPdU7yQy80ElH368FdN-79" value="Apakah makanan yang&amp;nbsp;&lt;br&gt;dipesan sudah sesuai ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="FoPdU7yQy80ElH368FdN-44">
           <mxGeometry x="10" y="510" width="250" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="FoPdU7yQy80ElH368FdN-81" value="Ya" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="FoPdU7yQy80ElH368FdN-79" parent="FoPdU7yQy80ElH368FdN-44" target="FoPdU7yQy80ElH368FdN-49">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="95.5" y="640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-57" value="Driver Gojek" style="swimlane;whiteSpace=wrap;startSize=23;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="724.5" y="-110" width="280" height="1380" as="geometry" />
         </mxCell>
@@ -110,21 +105,22 @@
         <mxCell id="FoPdU7yQy80ElH368FdN-62" value="Activity Diagram : Layanan GoFood" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="150" y="-140" width="390" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FoPdU7yQy80ElH368FdN-64" value="GoPay" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoPdU7yQy80ElH368FdN-41" target="FoPdU7yQy80ElH368FdN-58">
-          <mxGeometry x="-0.6636" relative="1" as="geometry">
+        <mxCell id="FoPdU7yQy80ElH368FdN-64" value="GoPay" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoPdU7yQy80ElH368FdN-41" target="FoPdU7yQy80ElH368FdN-49">
+          <mxGeometry x="-0.0851" relative="1" as="geometry">
             <mxPoint x="728" y="825.4" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="583" y="775.4" />
-              <mxPoint x="728" y="775.4" />
-              <mxPoint x="728" y="820.4" />
+              <mxPoint x="290" y="775" />
             </Array>
-            <mxPoint x="1" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FoPdU7yQy80ElH368FdN-65" value="Tunai" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoPdU7yQy80ElH368FdN-41" target="FoPdU7yQy80ElH368FdN-58">
+        <mxCell id="FoPdU7yQy80ElH368FdN-65" value="Tunai" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.455;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FoPdU7yQy80ElH368FdN-41" target="FoPdU7yQy80ElH368FdN-49">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="588" y="905.4" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="590" y="830" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FoPdU7yQy80ElH368FdN-66" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FoPdU7yQy80ElH368FdN-51" target="FoPdU7yQy80ElH368FdN-39">
@@ -187,6 +183,14 @@
           <mxGeometry x="0.3185" relative="1" as="geometry">
             <mxPoint x="680" y="450" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FoPdU7yQy80ElH368FdN-81" value="Ya" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.456;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="FoPdU7yQy80ElH368FdN-79" parent="1" target="FoPdU7yQy80ElH368FdN-40">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="540" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="292" y="510" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
