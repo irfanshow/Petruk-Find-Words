@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T10:29:12.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="odBE3osbM_uHmU9oy6H-" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T10:35:31.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="8AIhCrGNvhP2ErpRUEv3" version="14.6.13" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -15,6 +15,20 @@
         </mxCell>
         <mxCell id="s2uiEyLbfC9iz_pd1uFl-57" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="2">
           <mxGeometry x="125" y="32" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-82" value="Mengonfirmasi lokasi kepada driver" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="2">
+          <mxGeometry x="30" y="870" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-73" value="Melakukan Transaksi/Pembayaran" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="2">
+          <mxGeometry x="25" y="610" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-75" value="Bayar" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="2">
+          <mxGeometry x="100" y="765" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-74" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="s2uiEyLbfC9iz_pd1uFl-73" parent="2" target="s2uiEyLbfC9iz_pd1uFl-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.5" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3" value="Sistem Gojek" style="swimlane;whiteSpace=wrap;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="444.5" y="-110" width="280" height="1570" as="geometry" />
@@ -37,28 +51,45 @@
         <mxCell id="s2uiEyLbfC9iz_pd1uFl-65" value="Mencari driver yang tersedia dan terdekat" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="3">
           <mxGeometry x="30.5" y="540" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s2uiEyLbfC9iz_pd1uFl-73" value="Melakukan Transaksi/Pembayaran" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="3">
-          <mxGeometry x="25" y="630" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="s2uiEyLbfC9iz_pd1uFl-74" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="s2uiEyLbfC9iz_pd1uFl-73" parent="3" target="s2uiEyLbfC9iz_pd1uFl-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140.5" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="s2uiEyLbfC9iz_pd1uFl-66" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;" edge="1" parent="3" target="s2uiEyLbfC9iz_pd1uFl-73">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140.5" y="640" as="targetPoint" />
             <mxPoint x="140.5" y="581" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s2uiEyLbfC9iz_pd1uFl-75" value="Bayar" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="3">
-          <mxGeometry x="100" y="750" width="80" height="40" as="geometry" />
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-80" value="Menampilkan Info Driver" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="3">
+          <mxGeometry x="60" y="870" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-87" value="Menampilkan lokasi driver pada map hingga sampai titik jemput" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="3">
+          <mxGeometry x="40.5" y="1040" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="s2uiEyLbfC9iz_pd1uFl-87" parent="3" target="s2uiEyLbfC9iz_pd1uFl-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-89" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="3">
+          <mxGeometry x="135.5" y="1230" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="3" source="s2uiEyLbfC9iz_pd1uFl-89" target="s2uiEyLbfC9iz_pd1uFl-89">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Driver Gojek" style="swimlane;whiteSpace=wrap;startSize=23;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="724.5" y="-110" width="280" height="1570" as="geometry" />
         </mxCell>
         <mxCell id="s2uiEyLbfC9iz_pd1uFl-67" value="Menerima Pesanan" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="4">
           <mxGeometry x="75.5" y="765" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-78" value="Menghubungi/Menginfokan&lt;br&gt;Customer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="4">
+          <mxGeometry x="30" y="870" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-79" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="s2uiEyLbfC9iz_pd1uFl-67" parent="4" target="s2uiEyLbfC9iz_pd1uFl-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.5" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-85" value="Menjemput Customer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=19;" vertex="1" parent="4">
+          <mxGeometry x="35" y="980" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s2uiEyLbfC9iz_pd1uFl-41" value="Activity Diagram : Layanan GoRide" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="150" y="100" width="390" height="20" as="geometry" />
@@ -84,6 +115,34 @@
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="590" y="760" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-81" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="s2uiEyLbfC9iz_pd1uFl-80" parent="1" target="s2uiEyLbfC9iz_pd1uFl-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-84" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2uiEyLbfC9iz_pd1uFl-78" target="s2uiEyLbfC9iz_pd1uFl-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="810" as="targetPoint" />
+            <mxPoint x="514.5" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-83" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="s2uiEyLbfC9iz_pd1uFl-82" parent="1" target="s2uiEyLbfC9iz_pd1uFl-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="305" y="878" />
+              <mxPoint x="587" y="878" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2uiEyLbfC9iz_pd1uFl-86" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;fontSize=19;entryX=1.019;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="s2uiEyLbfC9iz_pd1uFl-85" parent="1" target="s2uiEyLbfC9iz_pd1uFl-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="875" y="979" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
