@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T12:25:20.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="k1JK_mE-vD4hOF2j161R" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T12:35:30.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="cTCUXmNl2MVm41NFsXXN" version="14.6.13" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="4152" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="orS3Lamu9RFH1Dcoo1lT-38" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="640" y="740" width="1430" height="670" as="geometry" />
-        </mxCell>
         <mxCell id="orS3Lamu9RFH1Dcoo1lT-1" value="Menu utama Gojek" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="130" height="110" as="geometry" />
         </mxCell>
@@ -180,6 +177,9 @@
             <mxPoint x="1430" y="1390" as="sourcePoint" />
             <mxPoint x="1510" y="1390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="orS3Lamu9RFH1Dcoo1lT-38" value="alt Lokasi sesuai" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=19;width=90;height=80;" vertex="1" parent="1">
+          <mxGeometry x="670" y="740" width="1400" height="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
